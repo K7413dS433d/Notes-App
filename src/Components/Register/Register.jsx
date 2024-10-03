@@ -5,6 +5,7 @@ import { useNavigate, NavLink } from "react-router-dom";
 import { useDispatch, useSelector, useStore } from "react-redux";
 import { register } from "../../Redux/Slices/registerSlice";
 import registerImg from "../../assets/register.png";
+import { useEffect } from "react";
 
 //initial values
 const initialValues = {
@@ -71,6 +72,12 @@ function Register() {
       });
     },
   });
+
+  useEffect(() => {
+    if (localStorage.getItem("token")) {
+      navigator("/");
+    }
+  }, []);
 
   return (
     <section className="bg-primary min-h-screen p-5 md:p-10 flex items-stretch justify-center">
@@ -178,7 +185,7 @@ function Register() {
             <div className="relative">
               <input
                 name="password"
-                type="text"
+                type="password"
                 placeholder="Password"
                 className="w-full h-10 sm:h-11 rounded-full focus:outline-none border-2 px-3 border-Charcoal"
                 onBlur={formik.handleBlur}

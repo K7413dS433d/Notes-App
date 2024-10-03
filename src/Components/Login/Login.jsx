@@ -46,6 +46,9 @@ function Login() {
   });
 
   useEffect(() => {
+    if (localStorage.getItem("token")) {
+      navigator("/");
+    }
     const { email, password } = formik.errors;
     if (email || password) {
       email && toast.error(email, { toastId: "EmailError", autoClose: 1500 });
@@ -89,7 +92,7 @@ function Login() {
             <div>
               <input
                 name="password"
-                type="text"
+                type="password"
                 placeholder="Password"
                 className="w-full h-10 sm:h-11 rounded-full focus:outline-none border-2 px-3 border-Charcoal"
                 onChange={formik.handleChange}
