@@ -27,7 +27,7 @@ The Notes App is designed to provide a simple yet effective solution for managin
 
 ## Live Demo
 
-Check out the live version of the app [here](https://k7413ds433d.github.io/Notes-App/#/login).
+Check out the live version of the app [here](https://k7413ds433d.github.io/Notes-App/).
 
 ## Video
 
