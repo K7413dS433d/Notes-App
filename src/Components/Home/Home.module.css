@@ -1,0 +1,149 @@
+.truncate {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.truncateLine {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+
+@media (max-width: 640px) {
+  .truncate {
+    -webkit-line-clamp: 2;
+  }
+}
+@media (max-width: 375px) {
+  .truncate {
+    -webkit-line-clamp: 1;
+  }
+}
+
+.noScrollBar {
+  overflow: scroll;
+  scrollbar-color: red orange;
+  scrollbar-width: none;
+}
+
+
+
+/* animation  */
+
+.active .rotate {
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+}
+.active .colors:nth-child(n+1) {
+  transform: translateY(3rem);
+  transition: transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s;
+  -webkit-transition: transform 0.5s ease 0s;
+  -moz-transition: transform 0.5s ease 0s;
+  -ms-transition: transform 0.5s ease 0s;
+  -o-transition: transform 0.5s ease 0s;
+}
+.active .colors:nth-child(n+2) {
+  transform: translateY(5rem);
+  transition: transform 0.5s ease 0.2s;
+  transition: transform 0.5s ease 0.2s;
+  -webkit-transition: transform 0.5s ease 0.2s;
+  -moz-transition: transform 0.5s ease 0.2s;
+  -ms-transition: transform 0.5s ease 0.2s;
+  -o-transition: transform 0.5s ease 0.2s;
+}
+.active .colors:nth-child(n+3) {
+  transform: translateY(7rem);
+  transition: transform 0.5s ease 0.4s;
+  transition: transform 0.5s ease 0.4s;
+  -webkit-transition: transform 0.5s ease 0.4s;
+  -moz-transition: transform 0.5s ease 0.4s;
+  -ms-transition: transform 0.5s ease 0.4s;
+  -o-transition: transform 0.5s ease 0.4s;
+}
+.active .colors:nth-child(n+4) {
+  transform: translateY(9rem);
+  transition: transform 0.5s ease 0.6s;
+  transition: transform 0.5s ease 0.6s;
+  -webkit-transition: transform 0.5s ease 0.6s;
+  -moz-transition: transform 0.5s ease 0.6s;
+  -ms-transition: transform 0.5s ease 0.6s;
+  -o-transition: transform 0.5s ease 0.6s;
+}
+.active .colors:nth-child(n+5) {
+  transform: translateY(11rem);
+  transition: transform 0.5s ease 0.8s;
+  transition: transform 0.5s ease 0.8s;
+  -webkit-transition: transform 0.5s ease 0.8s;
+  -moz-transition: transform 0.5s ease 0.8s;
+  -ms-transition: transform 0.5s ease 0.8s;
+  -o-transition: transform 0.5s ease 0.8s;
+}
+.active .colors:nth-child(n+6) {
+  transform: translateY(13rem);
+  transition: transform 0.5s ease 1s;
+  transition: transform 0.5s ease 1s;
+  -webkit-transition: transform 0.5s ease 1s;
+  -moz-transition: transform 0.5s ease 1s;
+  -ms-transition: transform 0.5s ease 1s;
+  -o-transition: transform 0.5s ease 1s;
+}
+
+.close .rotate {
+  transform: rotate(0);
+  transition-duration: 0.5s;
+}
+.close .colors:nth-last-child(-n+1) {
+  transform: translateY(10rem);
+  transition: transform 0.5s ease 0s;
+  -webkit-transition: transform 0.5s ease 0s;
+  -moz-transition: transform 0.5s ease 0s;
+  -ms-transition: transform 0.5s ease 0s;
+  -o-transition: transform 0.5s ease 0s;
+}
+.close .colors:nth-last-child(-n+2) {
+  transform: translateY(8rem);
+  transition: transform 0.5s ease 0s;
+  -webkit-transition: transform 0.5s ease 0s;
+  -moz-transition: transform 0.5s ease 0s;
+  -ms-transition: transform 0.5s ease 0s;
+  -o-transition: transform 0.5s ease 0s;
+}
+.close .colors:nth-last-child(-n+3) {
+  transform: translateY(6rem);
+  transition: transform 0.5s ease 0s;
+  -webkit-transition: transform 0.5s ease 0s;
+  -moz-transition: transform 0.5s ease 0s;
+  -ms-transition: transform 0.5s ease 0s;
+  -o-transition: transform 0.5s ease 0s;
+}
+.close .colors:nth-last-child(-n+4) {
+  transform: translateY(4rem);
+  transition: transform 0.5s ease 0s;
+  -webkit-transition: transform 0.5s ease 0s;
+  -moz-transition: transform 0.5s ease 0s;
+  -ms-transition: transform 0.5s ease 0s;
+  -o-transition: transform 0.5s ease 0s;
+}
+.close .colors:nth-last-child(-n+5) {
+  transform: translateY(2rem);
+  transition: transform 0.5s ease 0s;
+  -webkit-transition: transform 0.5s ease 0s;
+  -moz-transition: transform 0.5s ease 0s;
+  -ms-transition: transform 0.5s ease 0s;
+  -o-transition: transform 0.5s ease 0s;
+}
+.close .colors:nth-last-child(-n+6) {
+  transform: translateY(0rem);
+  transition: transform 0.5s ease 0s;
+  -webkit-transition: transform 0.5s ease 0s;
+  -moz-transition: transform 0.5s ease 0s;
+  -ms-transition: transform 0.5s ease 0s;
+  -o-transition: transform 0.5s ease 0s;
+}
+
+/*# sourceMappingURL=style.css.map */
