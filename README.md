@@ -31,4 +31,6 @@ Check out the live version of the app [here](https://k7413ds433d.github.io/Notes
 
 ## Video
 
-Watch a walkthrough of the app [here](#).
+Watch a walkthrough of the app.
+
+https://github.com/user-attachments/assets/99202b79-a8c1-4223-a3cc-4afd9d611ba6
